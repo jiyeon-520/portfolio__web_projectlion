@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIIN | 프로젝트라이언 | 가시안이며 비상업적 취업지원 포트폴리오 용도로만 사용됩니다.</title>
+    <!-- 제이쿼리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <!-- 폰트어썸 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- 테일윈드 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <link rel="stylesheet" href="sub_02.css">
+    <script src="sub_02.js" defer></script>
+
+</head>
+
+<body>
+    <div class="bg-gray-50" style="min-height:100vh;">
+        <div class="flex justify-center">
+            <div class="my-16 bg-white rounded-lg" style="width:572px; padding:72px;">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="https://cdn.jsdelivr.net/gh/jhs512/project_lion_img/docs/projectlion_logo.svg" alt=""
+                            style="height:34px;">
+                    </a>
+                </div>
+                <h2 class="mt-6 mb-2 font-bold" style="font-size:32px; margin-top:52px;">안녕하세요! 👋</h2>
+                <p class="text-xs lg:text-sm">
+                    PROJECT LION에서 당신의 아이디어를
+                    <br>
+                    현실로 만들 수 있습니다.
+                </p>
+                <form method="post">
+                    <div class="mt-12">
+                        <input type="email" name="email"
+                            class="rounded-lg block w-full py-3 px-4 mb-3 text-sm placeholder-gray-300"
+                            placeholder="이메일" value="" style="border: solid 1px #ccc;">
+                        <ul class="need-input mb-4">
+                            <li class="flex space-x-2 items-center text-red-400">
+                                <span><i class="fas fa-exclamation-circle"></i></span>
+                                <p class="text-xs lg:text-sm">
+                                    이메일을 입력해주세요
+                                </p>
+                            </li>
+                        </ul>
+                        <ul class=" invalid mb-4">
+
+                            <li class="flex space-x-2 invalid items-center text-red-400">
+                                <span><i class="fas fa-exclamation-circle"></i></span>
+                                <p class="text-xs lg:text-sm">
+                                    올바른 이메일 형식을 입력해주세요
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="relative pw">
+                            <input type="password" name="password"
+                                class="rounded-lg border-gray-300 block w-full py-3 px-4 mb-3 text-sm placeholder-gray-300"
+                                placeholder="비밀번호" style="border: solid 1px #ccc;" value="">
+                            <button type="button" class="absolute outline-none" style="top:15px; right:18px;">
+                                <span class="text-gray-300"><i class="far fa-eye-slash"></i></span>
+                            </button>
+                            <ul class="need-input mb-4">
+                                <li class="flex space-x-2 items-center text-red-400">
+                                    <span><i class="fas fa-exclamation-circle"></i></span>
+                                    <p class="text-xs lg:text-sm">
+                                        비밀번호를 입력해주세요
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mt-3 mb-4 text-gray-500 text-sm"></div>
+                    <div class="mt-12">
+                        <button type="button"
+                            class="flex justify-center py-3 items-center w-full rounded-lg outline-none"
+                            style="background-color:rgb(230,120,0);">
+                            <span class="text-white text-sm font-semibold">로그인 하기</span>
+                        </button>
+                        <a href="sub_01.html"
+                            class=" mt-2 flex justify-center py-3 items-center w-full rounded-lg outline-none"
+                            style="border: 1px solid rgb(230,120,0);">
+                            <span class="text-white text-sm font-semibold" style="color:rgb(230,120,0);">회원가입 하기</span>
+                        </a>
+                    </div>
+
+                </form>
+                <div class="mt-8">
+                    <div class="flex justify-center items-center space-x-4">
+                        <a href="" class="text-xs text-gray-500 font-semibold outline-none"> 아이디 찾기</a>
+                        <span class="bg-gray-500" style="border-radius:9999px; width:3px; height:3px;"></span>
+                        <a href="" class="text-xs text-gray-500 font-semibold outline-none">비밀번호 찾기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

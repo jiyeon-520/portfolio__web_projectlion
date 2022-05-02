@@ -1,0 +1,70 @@
+/* 폰트 설정 */
+@font-face {
+    font-family: "GmarketSansMedium";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+      format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  html > body {
+    font-family: "GmarketSansMedium";
+    text-underline-position: under;
+  }
+  
+  /* 노말라이즈 */
+  
+  /* 라이브러리 */
+  
+  /* 커스텀 */
+  .mbti{
+    background-image: url("https://d35ai18pny966l.cloudfront.net/course/mbti_hero_1920.png");
+    height:400px;
+    background-position:50%;
+    background-size:cover;
+  }
+  
+  .mbti_title_a{
+    font-size:32px;
+    width:530px;
+    line-height:44px;
+    word-break:keep-all;
+  }
+  
+  .colored {
+    color:rgb(230,120,0);
+    border-bottom: 4px solid rgb(230,120,0);
+  }
+  
+  .top-bar.under-line{
+    border-bottom: solid 1px #ddd;
+  }
+  
+  
+  .arrow.up{ 
+    transform:scaleY(-1);
+  }
+  
+  .show{
+    display:none;
+  }
+  
+  
+  .cur > li > ul{
+    display:none;
+  }
+  
+  .cur> li.active > ul{
+    display:block;
+  }
+  
+  
+  .menu .arrow::after {
+    font-family: "Font Awesome 5 Free";
+    content:"\f078";
+    font-weight: 900;
+  }
+  
+  .menu.active .arrow::after {
+    content:"\f077";
+  }

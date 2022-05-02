@@ -1,0 +1,44 @@
+/* 폰트 설정 */
+@font-face {
+    font-family: "GmarketSansMedium";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+      format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  html > body {
+    font-family: "GmarketSansMedium";
+    text-underline-position: under;
+  }
+  
+  /* 노말라이즈 */
+  
+  /* 라이브러리 */
+  
+  /* 커스텀 */
+  
+  
+  input[type="email"] ~ ul {
+    display:none;
+  }
+  
+  input[type="email"].started:invalid ~ .invalid {
+    display:block;
+  }
+  
+  input[type="email"].started:placeholder-shown ~.need-input {
+    display:block;
+  }
+  
+  
+  input[type="password"] ~ ul {
+    display:none;
+  }
+  
+  
+  input[type="password"].started:placeholder-shown ~.need-input {
+    display:block;
+  }
+  
+  
